@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidad — Nova Helper</title>
+<style>
+  :root {
+    --paper: #F1F3F6;
+    --ink: #1E2233;
+    --ink-soft: #4A5068;
+    --line: #D8DCE6;
+    --accent: #4C4DDC;
+    --star: #C8890B;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    line-height: 1.65;
+  }
+  header {
+    padding: 3.5rem 1.5rem 2rem;
+    max-width: 680px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--line);
+  }
+  header .mark { font-size: 1.5rem; color: var(--star); }
+  h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0 0.25rem;
+    letter-spacing: -0.01em;
+  }
+  .updated { color: var(--ink-soft); font-size: 0.95rem; }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 5rem;
+  }
+  nav.toc {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  nav.toc p { margin: 0 0 0.6rem; font-weight: 600; }
+  nav.toc ol { margin: 0; padding-left: 1.2rem; }
+  nav.toc a { color: var(--accent); text-decoration: none; }
+  nav.toc a:hover { text-decoration: underline; }
+  section { margin-bottom: 2.2rem; }
+  h2 {
+    font-size: 1.25rem;
+    border-left: 3px solid var(--accent);
+    padding-left: 0.7rem;
+    margin: 0 0 0.8rem;
+  }
+  p { margin: 0 0 0.9rem; }
+  ul { margin: 0 0 0.9rem; padding-left: 1.3rem; }
+  li { margin-bottom: 0.4rem; }
+  strong { color: var(--ink); }
+  .placeholder {
+    background: #FFF3D6;
+    border: 1px solid #E8C877;
+    padding: 0.05rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.92em;
+  }
+  footer {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+    color: var(--ink-soft);
+    font-size: 0.9rem;
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="mark">⭐</div>
+  <h1>Política de Privacidad</h1>
+  <p class="updated">Nova Helper — última actualización: 13 de septiembre de 2026</p>
+</header>
+
+<main>
+
+<nav class="toc">
+  <p>Contenido</p>
+  <ol>
+    <li><a href="#datos">Qué datos recopila Nova Helper</a></li>
+    <li><a href="#uso">Cómo usamos esos datos</a></li>
+    <li><a href="#almacenamiento">Dónde se almacenan</a></li>
+    <li><a href="#terceros">Con quién se comparten</a></li>
+    <li><a href="#retencion">Cuánto tiempo se conservan</a></li>
+    <li><a href="#derechos">Tus derechos</a></li>
+    <li><a href="#menores">Menores de edad</a></li>
+    <li><a href="#cambios">Cambios en esta política</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ol>
+</nav>
+
+<section id="datos">
+  <h2>1. Qué datos recopila Nova Helper</h2>
+  <p>Nova Helper ("el bot") solo recopila la información necesaria para funcionar dentro de los servidores de Discord donde está añadido:</p>
+  <ul>
+    <li><strong>Identificadores de Discord:</strong> tu ID de usuario y el ID del servidor (guild), necesarios para asociar tu balance, nivel y avisos al servidor correcto.</li>
+    <li><strong>Datos de la economía virtual:</strong> tu balance de ⭐ Stars, historial de transacciones, cases abiertos y compras en la tienda del servidor.</li>
+    <li><strong>Actividad de mensajes:</strong> un contador de mensajes enviados (no el contenido de tus mensajes, salvo el instante en que respondes a una pregunta activa del bot para verificar la respuesta correcta).</li>
+    <li><strong>Nivel y experiencia (XP):</strong> tu progreso de nivel dentro de cada servidor.</li>
+    <li><strong>Registros de moderación:</strong> si un moderador te aplica un aviso (warn), se guarda el motivo, quién lo puso y la fecha.</li>
+  </ul>
+  <p>Nova Helper <strong>no recopila</strong> tu correo electrónico, dirección IP, número de teléfono, datos de pago ni ninguna información fuera de Discord. Las ⭐ Stars son una moneda virtual sin valor monetario real: no se pueden comprar con dinero real ni canjear por él.</p>
+</section>
+
+<section id="uso">
+  <h2>2. Cómo usamos esos datos</h2>
+  <p>Los datos se usan exclusivamente para que el bot funcione: mostrar tu balance, procesar transferencias y compras, calcular niveles, aplicar cooldowns y mantener un historial de moderación consultable por los administradores del servidor. No se usan con fines publicitarios ni se venden a nadie.</p>
+</section>
+
+<section id="almacenamiento">
+  <h2>3. Dónde se almacenan</h2>
+  <p>Los datos se guardan en una base de datos propia del bot, alojada en el proveedor de hosting que ejecuta Nova Helper. No se sincronizan con servicios de análisis ni de publicidad externos.</p>
+</section>
+
+<section id="terceros">
+  <h2>4. Con quién se comparten</h2>
+  <p>No compartimos tus datos con terceros, salvo:</p>
+  <ul>
+    <li>Discord Inc., en la medida necesaria para que el bot funcione a través de su API (sujeto también a la <a href="https://discord.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Discord</a>).</li>
+    <li>El proveedor de hosting donde corre el bot, que aloja técnicamente la base de datos.</li>
+    <li>Cuando la ley nos obligue a ello.</li>
+  </ul>
+</section>
+
+<section id="retencion">
+  <h2>5. Cuánto tiempo se conservan los datos</h2>
+  <p>Tus datos se conservan mientras el bot siga añadido a un servidor y tú sigas siendo miembro de él. Si expulsas al bot del servidor, o solicitas la eliminación de tus datos (ver sección siguiente), se eliminarán en un plazo razonable.</p>
+</section>
+
+<section id="derechos">
+  <h2>6. Tus derechos</h2>
+  <p>Puedes solicitar en cualquier momento que se elimine tu información almacenada por Nova Helper (balance, historial, avisos, nivel) escribiendo a <span class="placeholder">[tu email o usuario de Discord de contacto]</span>. Ten en cuenta que eliminar tus avisos de moderación puede requerir confirmación de un administrador del servidor correspondiente.</p>
+</section>
+
+<section id="menores">
+  <h2>7. Menores de edad</h2>
+  <p>Nova Helper sigue los requisitos de edad mínima de Discord (13 años, o la edad mínima exigida en tu país). No solicitamos ni recopilamos intencionadamente datos adicionales de menores de esa edad.</p>
+</section>
+
+<section id="cambios">
+  <h2>8. Cambios en esta política</h2>
+  <p>Podemos actualizar esta política si el bot cambia de funcionalidad. Publicaremos la fecha de la última actualización en la parte superior de esta página.</p>
+</section>
+
+<section id="contacto">
+  <h2>9. Contacto</h2>
+  <p>Para dudas sobre esta política o para ejercer tus derechos, escribe a <span class="placeholder">[tu email o servidor de soporte]</span>.</p>
+</section>
+
+</main>
+
+<footer>
+  Nova Helper no es un servicio de Discord Inc. Este documento describe únicamente las prácticas de datos del bot Nova Helper.
+</footer>
+
+</body>
+</html>
